@@ -11,9 +11,9 @@ Category.init(
       type: DataTypes.INTEGER,
       allowNull: false,
       primaryKey: true,
-      autoIncrement: TextTrackCueList
+      autoIncrement: true
     },
-    name: {
+    category_name: {
       type: DataTypes.STRING,
       allowNull: false
     }
